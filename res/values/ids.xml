@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="favorite_id_tag" />
+    <item type="id" name="favorite_name_tag" />
+    <item type="id" name="favorite_addr_tag" />
+    <item type="id" name="favorite_pswd_tag" />
+    <item type="id" name="require_password_tag" />
+</resources>

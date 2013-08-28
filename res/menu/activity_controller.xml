@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_launch"
+         android:orderInCategory="100"
+         android:title="@string/menu_launch"
+         android:icon="@drawable/ic_quicklaunch" 
+         android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/menu_mouse"
+         android:orderInCategory="100"
+         android:title="@string/menu_mouse"
+         android:icon="@drawable/ic_mouse" 
+         android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/menu_pref"
+         android:menuCategory="secondary"
+         android:orderInCategory="100"
+         android:title="@string/menu_settings" 
+         android:icon="@drawable/ic_preference"
+         android:showAsAction="never"/>
+    
+</menu>

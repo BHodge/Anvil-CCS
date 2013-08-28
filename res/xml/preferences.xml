@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:hodgeproject="https://hodgeproject.com">
+    
+    <!-- Mouse Settings -->
+    <PreferenceCategory android:title="@string/mouse_setting_category">
+        <com.hodgeproject.media.controller.SeekBarPreference 
+            android:key="mouse_sensitivity"
+        	android:title="Mouse Sensitivity"
+        	android:summary="Sensitvity of mouse input"
+        	android:dialogMessage="Sensitvity of mouse input"
+        	android:defaultValue="100"
+        	android:text="%"
+        	android:max="200"
+        	hodgeproject:min="25"/>
+        <CheckBoxPreference 
+            android:key="long_press_en"
+            android:title="Long Press Right Click"
+            android:summary="Enable Right-Click by long presses"
+            android:defaultValue="true"/>
+        <CheckBoxPreference 
+            android:key="touchpad_buttons_en"
+            android:title="Display TouchPad Buttons"
+            android:summary="Display mouse buttons on touch pad"
+            android:defaultValue="true"/>
+        <CheckBoxPreference 
+            android:key="volrock_mouse_en"
+            android:title="Volume Mouse Buttons"
+            android:summary="Volume buttons that act as mouse buttons"
+            android:defaultValue="true"/>
+        
+        <!-- Advanced Volume Button Mouse Settings -->
+        <PreferenceScreen
+            android:title="Advanced Volume Mouse"
+            android:dependency="volrock_mouse_en"
+            android:persistent="false">
+        	<CheckBoxPreference 
+            	android:key="volrock_mouse_override"
+            	android:dependency="volrock_mouse_en"
+           		android:title="Volume Mouse Override"
+            	android:summary="Override default volume mouse functionality"
+            	android:defaultValue="false"/>
+        	<ListPreference 
+            	android:key="volrock_up"
+            	android:dependency="volrock_mouse_override"
+            	android:title="Volume Up Behavior"
+            	android:summary="Select volume-up button functionality"
+            	android:dialogTitle="Volume Button Up"
+        		android:entries="@array/mouseButtonArray"
+        		android:entryValues="@array/mouseButtonValues"
+        		android:defaultValue="MOUSE1" />
+        	<ListPreference 
+            	android:key="volrock_down"
+            	android:dependency="volrock_mouse_override"
+            	android:title="Volume Down Behavior"
+            	android:summary="Select volume-down button functionality"
+            	android:dialogTitle="Volume Button Down"
+        		android:entries="@array/mouseButtonArray"
+        		android:entryValues="@array/mouseButtonValues"
+        		android:defaultValue="MOUSE3" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <!-- Quick Launch Settings -->
+    <PreferenceCategory android:title="Quick Launch">
+		<CheckBoxPreference 
+		    android:title="@string/menu_placeholder"
+		    android:summary="@string/summ_placeholder"/>
+		<CheckBoxPreference 
+		    android:title="@string/menu_placeholder"
+		    android:summary="@string/summ_placeholder"/>
+    </PreferenceCategory>
+    
+    <!-- Keyboard Settings -->
+    <PreferenceCategory android:title="@string/key_setting_category">
+		<CheckBoxPreference 
+		    android:title="@string/menu_placeholder"
+		    android:summary="@string/summ_placeholder"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

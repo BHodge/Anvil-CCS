@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top" >
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"  
+        android:layout_below="@+id/textView1">
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        	<LinearLayout
+	            android:id="@+id/favoriteLayout1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingLeft="16dp"
+	    		android:paddingRight="16dp" >
+	        </LinearLayout>
+		    
+		    
+	        <LinearLayout
+	            android:id="@+id/serverLayout1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingLeft="16dp"
+	    		android:paddingRight="16dp" >
+	        </LinearLayout>
+	        
+	        
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingTop="16dp"
+	            android:paddingLeft="16dp"
+	    		android:paddingRight="16dp" >
+	    		<Button
+	                android:id="@+id/button_started"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_blue"
+	                style="@style/ButtonText"
+	                android:text="@string/get_started" />
+	        </LinearLayout>
+	        
+	        
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/help_select_text" />
+
+</RelativeLayout>

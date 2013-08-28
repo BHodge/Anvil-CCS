@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dip" >
+
+    <Row>
+        <Key android:codes="-27" android:keyLabel="Esc" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-112" android:keyLabel="F1-12 ..." android:horizontalGap="2.5%p" android:keyWidth="45%p" android:popupKeyboard="@xml/popup_f1_4"/>
+        <Key android:codes="-145" android:keyLabel="ScLk" android:horizontalGap="2.5%p" android:keyWidth="15%p"/>
+        <Key android:codes="-19" android:keyLabel="PsBk" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-9" android:keyLabel="Tab" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        
+        <Key android:codes="-38" android:keyIcon="@drawable/sym_keyboard_up"  android:horizontalGap="12.5%p"/>
+
+        <Key android:codes="-45" android:keyLabel="Ins" android:horizontalGap="12.5%p" android:keyWidth="15%p" />
+        <Key android:codes="-36" android:keyLabel="Home" android:keyWidth="15%p"/>
+        <Key android:codes="-33" android:keyLabel="PgUp" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-20" android:keyLabel="CapsLk" android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+
+		<Key android:codes="-37" android:keyIcon="@drawable/sym_keyboard_left" android:horizontalGap="2.5%p" />
+		<Key android:codes="-40" android:keyIcon="@drawable/sym_keyboard_down"  />
+		<Key android:codes="-39" android:keyIcon="@drawable/sym_keyboard_right"  />
+        
+        <Key android:codes="-46" android:keyLabel="Del" android:keyWidth="15%p" android:horizontalGap="2.5%p"/>
+        <Key android:codes="-35" android:keyLabel="End" android:keyWidth="15%p"/>
+        <Key android:codes="-34" android:keyLabel="PgDn" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+     
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-200" android:keyLabel="ABC" android:keyWidth="20%p" android:keyEdgeFlags="left" android:isModifier="true"/>
+        
+        <Key android:codes="-16" android:keyLabel="Shift" android:keyWidth="20%p" android:horizontalGap="20%p"/>
+        <Key android:codes="-17" android:keyLabel="Ctrl" android:keyWidth="20%p" />
+        <Key android:codes="-18" android:keyLabel="Alt" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+
+    </Row>
+   
+</Keyboard>

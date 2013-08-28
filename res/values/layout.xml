@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_connection" type="layout">@layout/activity_connection_singlepane</item>
+    <item name="activity_controller" type="layout">@layout/activity_controller_singlepage</item>
+    <bool name="has_two_panes">false</bool>
+</resources>

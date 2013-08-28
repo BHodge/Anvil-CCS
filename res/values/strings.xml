@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anvil</string>
+
+    <string name="title_activity_login">Connect</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_controller">Anvil</string>
+    
+    <string name="menu_title_favorite">Manage Favorite Computers</string>
+    <string name="menu_option_favorite_add">Add Favorite</string>
+    <string name="menu_option_favorite_edit">Edit Favorite</string>
+    <string name="menu_option_favorite_delete">Delete Favorite</string>
+    <string name="menu_placeholder">Placeholder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_add">Add Favorite</string>
+    <string name="menu_mouse">Mouse</string>
+    <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_launch">Quick Launch</string>
+    
+    <string name="notification_connected">Connected to server</string>
+    <string name="notification_connecting">Connecting to server</string>
+
+    <string name="title_add_favorite">Add Favorite</string>
+    <string name="title_edit_favorite">Edit Favorite</string>
+    <string name="serv_name">Computer Name</string>
+    <string name="serv_address">Computer Address</string>
+    <string name="get_started">Getting Started</string>
+    <string name="help_select_text">Select a computer below to connect to. Add favorite computers that always show in list.</string>
+    <string name="refresh">Refresh</string>
+    <string name="favorite">Add Favorite</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="mouse_left">L</string>
+    <string name="mouse_right">R</string>
+    
+    <string name="summ_placeholder">This is a placeholder summary</string>
+    <string name="mouse_setting_category">Mouse</string>
+    <string name="key_setting_category">Keyboard</string>
+    
+</resources>

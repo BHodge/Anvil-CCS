@@ -1,0 +1,28 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" >
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    
+    <style name="SeekBarPreferenceCustom" parent="@android:Theme.Dialog" >
+    </style>
+    
+    <style name="MyTextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#C0C0C0</item>
+    </style>
+    
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_margin">3dp</item>
+    	<item name="android:textSize">15sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">0</item>
+    	<item name="android:shadowDy">0</item>
+    	<item name="android:shadowRadius">2</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="56dp">
+    
+    <Row android:rowEdgeFlags="top">
+    	<Key android:codes="112" android:keyLabel="F1" android:keyWidth="15%p"/>
+    	<Key android:codes="113" android:keyLabel="F2" android:keyWidth="15%p" />
+    	<Key android:codes="114" android:keyLabel="F3" android:keyWidth="15%p"/>
+    	<Key android:codes="115" android:keyLabel="F4" android:keyWidth="15%p" />
+    </Row>
+        <Row>
+    	<Key android:codes="112" android:keyLabel="F5" android:keyWidth="15%p"/>
+    	<Key android:codes="113" android:keyLabel="F6" android:keyWidth="15%p" />
+    	<Key android:codes="114" android:keyLabel="F7" android:keyWidth="15%p"/>
+    	<Key android:codes="115" android:keyLabel="F8" android:keyWidth="15%p" />
+    </Row>
+        <Row android:rowEdgeFlags="bottom">
+    	<Key android:codes="112" android:keyLabel="F9" android:keyWidth="15%p"/>
+    	<Key android:codes="113" android:keyLabel="F10" android:keyWidth="15%p" />
+    	<Key android:codes="114" android:keyLabel="F11" android:keyWidth="15%p"/>
+    	<Key android:codes="115" android:keyLabel="F12" android:keyWidth="15%p" />
+    </Row>
+</Keyboard>

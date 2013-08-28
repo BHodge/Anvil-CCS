@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mouseButtonArray">
+        <item >Mouse Left</item>
+        <item >Mouse Right</item>
+        <item >Mouse Center</item>
+    </string-array>
+    <string-array name="mouseButtonValues">
+        <item >MOUSE1</item>
+        <item >MOUSE3</item>
+        <item >MOUSE2</item>
+    </string-array>
+    
+</resources>
