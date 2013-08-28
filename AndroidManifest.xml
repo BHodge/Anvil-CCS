@@ -18,7 +18,7 @@
         android:allowBackup="true">
         
 		<activity 
-			android:name=".connection.ConnectionActivity" >
+			android:name="com.hodgeproject.media.connection.ConnectionActivity" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
 				<category android:name="android.intent.category.DEFAULT"/>
@@ -28,20 +28,20 @@
        
 		<!-- android:uiOptions="splitActionBarWhenNarrow" -->
 		<activity
-			android:name=".controller.ControllerActivity"
+			android:name="com.hodgeproject.media.controller.ControllerActivity"
 			android:label="@string/title_activity_controller"
 			android:launchMode="singleTop" 
-			android:parentActivityName=".connection.ConnectionActivity" 
+			android:parentActivityName="com.hodgeproject.media.connection.ConnectionActivity" 
 			android:uiOptions="splitActionBarWhenNarrow">
 			<meta-data
 				android:name="android.support.PARENT_ACTIVITY"
-				android:value=".connection.ConnectionActivity" />
+				android:value="com.hodgeproject.media.connection.ConnectionActivity" />
 		</activity>
 
-        <service android:name=".service.ControlService" />
+        <service android:name="com.hodgeproject.media.service.ControlService" />
 
         <activity 
-            android:name=".controller.SettingsActivity"
+            android:name="com.hodgeproject.media.controller.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
     </application>
